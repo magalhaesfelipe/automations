@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "update/run",
+      "type": "shell",
+      "command": "python",
+      "args": [".vscode/script_be.py"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": [],
+      "presentation": { "panel": "dedicated" },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    }
+  ]
+}

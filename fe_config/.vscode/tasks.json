@@ -1,0 +1,102 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "update/run",
+      "type": "shell",
+      "command": "python",
+      "args": [".vscode/script_fe.py"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": [],
+      "presentation": { "panel": "dedicated" },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    }
+    // {
+    //   "label": "### launch ###",
+    //   "type": "shell",
+    //   "command": "npm start",
+    //   "options": { "cwd": "${workspaceFolder}" },
+    //   "problemMatcher": [],
+    //   "presentation": { "panel": "dedicated" }
+    // }
+  ]
+}
+// {
+//   "version": "2.0.0",
+//   "tasks": [
+//     {
+//       "label": "root-config",
+//       "type": "shell",
+//       "command": "npm start",
+//       "options": { "cwd": "${workspaceFolder}/root-config" },
+//       "problemMatcher": [],
+//       "presentation": { "panel": "dedicated" }
+//     },
+//     {
+//       "label": "orcamento",
+//       "type": "shell",
+//       "command": "npm start",
+//       "options": { "cwd": "${workspaceFolder}/orcamento" },
+//       "problemMatcher": [],
+//       "presentation": { "panel": "dedicated" }
+//     },
+//     {
+//       "label": "agenda",
+//       "type": "shell",
+//       "command": "npm start",
+//       "options": { "cwd": "${workspaceFolder}/agenda" },
+//       "problemMatcher": [],
+//       "presentation": { "panel": "dedicated" }
+//     },
+//     {
+//       "label": "home",
+//       "type": "shell",
+//       "command": "npm start",
+//       "options": { "cwd": "${workspaceFolder}/home" },
+//       "problemMatcher": [],
+//       "presentation": { "panel": "dedicated" }
+//     },
+//     {
+//       "label": "cadastro",
+//       "type": "shell",
+//       "command": "npm start",
+//       "options": { "cwd": "${workspaceFolder}/cadastro" },
+//       "problemMatcher": [],
+//       "presentation": { "panel": "dedicated" }
+//     },
+//     {
+//       "label": "configuracoes",
+//       "type": "shell",
+//       "command": "npm start",
+//       "options": { "cwd": "${workspaceFolder}/configuracoes" },
+//       "problemMatcher": [],
+//       "presentation": { "panel": "dedicated" }
+//     },
+//     {
+//       "label": "triagem",
+//       "type": "shell",
+//       "command": "npm start",
+//       "options": { "cwd": "${workspaceFolder}/triagem" },
+//       "problemMatcher": [],
+//       "presentation": { "panel": "dedicated" }
+//     },
+//     {
+//       "label": "start all micros",
+//       "dependsOn": [
+//         "root-config",
+//         "orcamento",
+//         "agenda",
+//         "home",
+//         "cadastro",
+//         "configuracoes",
+//         "triagem"
+//       ],
+//       "dependsOrder": "parallel",
+//       "runOptions": {
+//         "runOn": "folderOpen"
+//       }
+//     }
+//   ]
+// }
