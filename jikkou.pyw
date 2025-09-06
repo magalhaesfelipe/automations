@@ -3,9 +3,9 @@ import os
 
 # Paths
 brave_path = r"C:\Program Files\BraveSoftware\Brave-Browser-Beta\Application\brave.exe"
-vscode_path = r"C:\Users\Pax Primavera\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+vscode_path = r"C:\Users\rgm-79N\AppData\Local\Programs\Microsoft VS Code\Code.exe"
 
-url = "http://localhost:9000/home"
+url = "http://localhost:9000/agenda"
 
 # Directories
 fe_dir = r"C:\2501\workspace\clinic\fe"
