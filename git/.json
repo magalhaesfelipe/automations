@@ -1,0 +1,2 @@
+#completely remove changes
+git restore . && git clean -fd
