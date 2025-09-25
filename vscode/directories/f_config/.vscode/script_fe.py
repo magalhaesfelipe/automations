@@ -5,7 +5,7 @@ import sys
 
 npm_cmd = "npm.cmd" if sys.platform == "win32" else "npm"
 
-# Base path = parent folder of the script (root -> app-a, app-b, app-c, etc)
+# ROOT DIRECTORY (../fe)
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 dirs = [
@@ -19,7 +19,7 @@ dirs = [
     "agenda-app",
 ]
 
-# --- Update repos ---
+# UPDATE
 for d in dirs:
     full_path = os.path.join(BASE_DIR, d)
 
@@ -39,7 +39,7 @@ for d in dirs:
 
 print("\n##### Finished updates #####\n")
 
-# --- Install packs ---
+# INSTALL PACKAGES
 print("\n#### Installing packages ####\n")
 
 for d in dirs:
@@ -59,7 +59,7 @@ for d in dirs:
     except subprocess.CalledProcessError:
         print(f"Failed to install packages in {d}")
 
-# --- Launch from parent directory ---
+# LAUNCH
 print("\nLaunching...\n")
 try:
     subprocess.run([npm_cmd, "start"], cwd=BASE_DIR, check=True)
