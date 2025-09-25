@@ -1,0 +1,2 @@
+# git reset --hard -> remove all unstaged changes
+# git clean -fd -> remove untracked files
