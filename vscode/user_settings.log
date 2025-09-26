@@ -22,7 +22,10 @@
   "editor.fontLigatures": true,
   "window.menuBarVisibility": "compact",
   "terminal.integrated.tabs.enabled": true,
-  "terminal.integrated.tabs.defaultColor": "terminal.ansiRed",
+  "workbench.colorCustomizations": {
+    "terminal.ansiMagenta": "#ff004c"
+  },
+  "terminal.integrated.tabs.defaultColor": "terminal.ansiMagenta",
   "terminal.integrated.tabs.defaultIcon": "zap",
   "task.allowAutomaticTasks": "on",
   "workbench.secondarySideBar.defaultVisibility": "hidden",
