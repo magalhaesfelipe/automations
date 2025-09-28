@@ -1,0 +1,17 @@
+# about:config
+
+browser.urlbar.scotchBonnet.enableOverride -> false (remove search engine icon from url bar)
+
+ui.key.menuAccessKeyFocuses -> false (disable press 'alt' toggles menu options)
+
+browser.vpn.promo.enabled -> false (remove vpn promo from private window)
+
+browser.privatebrowsing.vpnpromourl -> clear value (remove vpn promo from private window)
+
+
+# about:profiles
+
+1. Go to profile root directoy (e.g., 'C:\Users\rgm-79N\AppData\Roaming\Mozilla\Firefox\Profiles\lptobh7j.default-release')
+2. Create a directory called 'chrome'
+3. Within it copy/create the file 'userChrome.css'
+4. Save it and reopen firefox

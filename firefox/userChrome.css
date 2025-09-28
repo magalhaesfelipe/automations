@@ -1,0 +1,37 @@
+/* Decrease tab height */
+/* :root {
+  --tab-min-height: 30px !important;
+} */
+
+/* #tabbrowser-tabs,
+.tabbrowser-tab {
+  min-height: var(--tab-min-height) !important;
+  max-height: var(--tab-min-height) !important;
+  border-radius: 5px !important;
+  overflow: visible !important;
+	margin-bottom: 0px !important;
+}
+
+/* Keep text centered */
+/* .tabbrowser-tab .tab-content {
+  padding-block: 2px !important;
+  align-items: center !important;
+}
+
+.tabbrowser-tab .tab-label {
+  line-height: var(--tab-min-height) !important;
+} */
+
+/* Make toolbars transparent */
+#navigator-toolbox,
+#nav-bar,
+#TabsToolbar,
+#PersonalToolbar {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.urlbar-background {
+  box-shadow: none !important;
+}
