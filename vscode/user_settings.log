@@ -47,9 +47,22 @@
   "workbench.statusBar.visible": false,
   "workbench.activityBar.location": "hidden",
   "turboConsoleLog.delimiterInsideMessage": "-",
-  "turboConsoleLog.logMessagePrefix": "🟧",
+  "turboConsoleLog.logMessagePrefix": "👺",
   "workbench.colorTheme": "Monokai Night",
   "window.newWindowDimensions": "maximized",
   "window.confirmSaveUntitledWorkspace": false,
-  "diffEditor.renderSideBySide": false
+  "diffEditor.renderSideBySide": false,
+  "git.openRepositoryInParentFolders": "never",
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "foreground": "#ffffff",
+      "background": "#af0202",
+      "type": "text"
+    },
+    "FIXME": {
+      "foreground": "#000000",
+      "background": "#ffff00",
+      "type": "text"
+    }
+  }
 }
