@@ -17,7 +17,8 @@ full-screen-api.warning.timeout -> 0 (remove fullscreen warning)
 
 # about:profiles
 
-1. Go to profile root directoy (e.g., 'C:\Users\rgm-79N\AppData\Roaming\Mozilla\Firefox\Profiles\lptobh7j.default-release')
-2. Create a directory called 'chrome'
-3. Within it copy/create the file 'userChrome.css'
-4. Save it and reopen firefox
+1. toolkit.legacyUserProfileCustomizations.stylesheets -> true (enable css customization)
+2. Go to profile root directoy -> about:profiles -> root directory (e.g., 'C:\Users\rgm-79N\AppData\Roaming\Mozilla\Firefox\Profiles\lptobh7j.default-release')
+3. Create a directory called 'chrome'
+4. Within it copy/create the file 'userChrome.css'
+5. Save it and reopen firefox
