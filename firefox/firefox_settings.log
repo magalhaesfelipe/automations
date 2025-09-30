@@ -1,21 +1,54 @@
-# about:config
+## about:config ##
 
-browser.urlbar.scotchBonnet.enableOverride -> false (remove search engine icon from url bar)
+setting:
+  browser.urlbar.scotchBonnet.enableOverride -> false
+result:
+  remove search engine icon from url bar)
 
-browser.vpn.promo.enabled -> false (remove vpn promo from private window)
-
-browser.privatebrowsing.vpnpromourl -> clear value (remove vpn promo from private window)
-
-ui.key.menuAccessKeyFocuses -> false (disable press 'alt' toggles menu options)
-
-screen-api.transition-duration.enter -> 0 0 (disable fullscreen transition on enter)
-
-screen-api.transition-duration.leave -> 0 0 (disable fullscreen transition on leave)
-
-full-screen-api.warning.timeout -> 0 (remove fullscreen warning)
+setting:
+  browser.vpn.promo.enabled -> false
+result:
+ remove vpn promo from private window
 
 
-# about:profiles
+setting:
+  browser.privatebrowsing.vpnpromourl -> clear value
+result:  
+  remove vpn promo from private window
+
+setting:
+  ui.key.menuAccessKeyFocuses -> false
+result:  
+   disable press 'alt' toggles menu options
+
+setting:
+  screen-api.transition-duration.enter -> 0 0 
+result:
+  disable fullscreen transition on enter
+
+setting:
+  screen-api.transition-duration.leave -> 0 0 
+result:
+  (disable fullscreen transition on leave)
+
+setting:
+  full-screen-api.warning.timeout -> 0
+result:
+  remove fullscreen warning)
+
+setting:
+  browser.urlbar.autoFill -> false
+result:
+  disable autofill of base urls(e.g., archive.org) and only suggest bookmarked urls(e.g., https://archive.org/details/@example)
+info: 
+  https://superuser.com/questions/632306/how-to-make-firefox-only-suggest-complete-urls-and-not-just-the-host
+tip:
+ you can also add a keyword to a bookmarked url, like 'arquive' for 'https://archive.org/details/@example/uploads', type 'archive' + enter
+ and go straight to that url 
+
+
+
+## about:profiles ##
 
 1. toolkit.legacyUserProfileCustomizations.stylesheets -> true (enable css customization)
 
