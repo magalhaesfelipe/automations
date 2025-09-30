@@ -22,3 +22,17 @@ full-screen-api.warning.timeout -> 0 (remove fullscreen warning)
 3. Create a directory called 'chrome'
 4. Within it copy/create the file 'userChrome.css'
 5. Save it and reopen firefox
+
+
+# about:preferences#privacy
+
+1. Go to -> about:preferences#privacy.
+2. Scroll down to Cookies and Site Data. 
+3. Uncheck the box that says "Delete cookies and site data when Firefox is closed" (so that firefox doesn't log you out). 
+
+
+
+
+
+
+
