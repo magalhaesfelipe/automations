@@ -1,0 +1,18 @@
+/* chrome/userContent.css */
+
+/* Hide the info text in about:privatebrowsing */
+@-moz-document url("about:privatebrowsing") {
+  .info-border .info {
+    display: none !important;
+  }
+
+  /* Customize the search banner */
+  #search-banner {
+    display: none !important;
+  }
+
+  /* Hide any logos or unnecessary content */
+  #about-private-browsing-logo {
+    display: none !important;
+  }
+}
