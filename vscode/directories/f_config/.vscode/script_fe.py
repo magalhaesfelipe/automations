@@ -31,16 +31,16 @@ for d in dirs:
         print(f"Skipping {full_path} (not a git repo)")
         continue
 
-    print(f"\nUpdating {d}...\n")
+    print(f"\n -> UPDATING {d}...\n")
     try:
         subprocess.run(["git", "-C", full_path, "pull"], check=True)
     except subprocess.CalledProcessError:
         print(f"Failed to update {d}")
 
-print("\n##### Finished updates #####\n")
+print("\n -> FINISHED UPDATES \n")
 
 # INSTALL PACKAGES
-print("\n#### Installing packages ####\n")
+print("\n -> INSTALLING PACKAGES \n")
 
 for d in dirs:
     full_path = os.path.join(BASE_DIR, d)
@@ -60,7 +60,7 @@ for d in dirs:
         print(f"Failed to install packages in {d}")
 
 # LAUNCH
-print("\nLaunching...\n")
+print("\n -> LAUNCHING...\n")
 try:
     subprocess.run([npm_cmd, "start"], cwd=BASE_DIR, check=True)
 except subprocess.CalledProcessError:

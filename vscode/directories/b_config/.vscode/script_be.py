@@ -16,10 +16,10 @@ else:
         print("Failed to update repository.")
 
 print()
-print("##### Finished updates #####")
+print("##### FINISHED UPDATES #####")
 print()
 
-print("Launching...")
+print("LAUNCHING...")
 try:
     subprocess.run(["npm", "start"], shell=True, check=True)
 except subprocess.CalledProcessError:

@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "update/run",
+      "label": "UPDATE & RUN",
       "type": "shell",
       "command": "python",
       "args": [".vscode/script_be.py"],

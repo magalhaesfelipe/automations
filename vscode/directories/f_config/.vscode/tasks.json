@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "update/run",
+      "label": "UPDATE AND RUN",
       "type": "shell",
       "command": "python",
       "args": [".vscode/script_fe.py"],
@@ -14,7 +14,7 @@
       }
     }
     // {
-    //   "label": "### launch ###",
+    //   "label": "### LAUNCH ###",
     //   "type": "shell",
     //   "command": "npm start",
     //   "options": { "cwd": "${workspaceFolder}" },
