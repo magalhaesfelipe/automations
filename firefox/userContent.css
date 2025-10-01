@@ -1,18 +1,23 @@
-/* chrome/userContent.css */
+/* Change content on the initial Firefox Home/New Tab page */
+/* @-moz-document url("about:home"),
+               url("about:newtab"),
+               url-prefix("chrome://activity-stream/"),
+               url-prefix("resource://activity-stream/")
+{
+  html,
+  body {
+    background: #1c1b22 !important;
+  }
+} */
 
-/* Hide the info text in about:privatebrowsing */
+/* Hide content in about:privatebrowsing and change bg-color */
 @-moz-document url("about:privatebrowsing") {
-  .info-border .info {
-    display: none !important;
+  html,
+  body {
+    background: #1c1b22 !important;
   }
 
-  /* Customize the search banner */
-  #search-banner {
-    display: none !important;
-  }
-
-  /* Hide any logos or unnecessary content */
-  #about-private-browsing-logo {
+  body > * {
     display: none !important;
   }
 }

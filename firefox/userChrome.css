@@ -27,7 +27,7 @@
 #nav-bar,
 #TabsToolbar,
 #PersonalToolbar {
-  background: transparent !important;
+  background: #1c1b22 !important;
   box-shadow: none !important;
   border: none !important;
 }

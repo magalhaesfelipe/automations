@@ -1,6 +1,21 @@
 ## about:config ##
 
 setting:
+  browser.display.background_color -> #1c1b22
+result: 
+  set background color (same as navbar)
+
+setting:
+  browser.display.background_color.dark -> #1c1b22
+result:
+  set background color (same as navbar)
+
+setting:
+  browser.newtab.preload -> false
+result:
+  disable newtab preload
+
+setting:
   browser.urlbar.scotchBonnet.enableOverride -> false
 result:
   remove search engine icon from url bar)
