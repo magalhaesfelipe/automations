@@ -29,12 +29,17 @@ result:
 setting:
   screen-api.transition-duration.leave -> 0 0 
 result:
-  (disable fullscreen transition on leave)
+  disable fullscreen transition on leave
 
 setting:
   full-screen-api.warning.timeout -> 0
 result:
-  remove fullscreen warning)
+  remove fullscreen warning
+
+setting:
+  browser.bookmarks.sidebarPosition -> set to string -> set to 'right'
+result:
+  change sidebar position
 
 setting:
   browser.urlbar.autoFill -> false
