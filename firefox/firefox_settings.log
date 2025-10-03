@@ -25,7 +25,6 @@ setting:
 result:
  remove vpn promo from private window
 
-
 setting:
   browser.privatebrowsing.vpnpromourl -> clear value
 result:  
