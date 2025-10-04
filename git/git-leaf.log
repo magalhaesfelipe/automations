@@ -1,2 +1,4 @@
 # git reset --hard -> remove all unstaged changes
 # git clean -fd -> remove untracked files
+
+# git reset --hard origin/<branch_name> -> will remove all local changes(including local commits) and roll back to the previous remote commit

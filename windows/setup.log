@@ -1,0 +1,124 @@
+-- START MENU --
+
+Global path: 
+
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+
+# Create shortcuts:
+- kigen
+- toshokan
+- sagyoba
+- daunrodo
+- kami
+- gazo
+- eizo
+- torakku
+- gram
+- Screenshots
+- jikkou.pyw
+- shuryo.pyw
+
+# Remove shortcuts:
+- Visual studio 2019
+- windows accessories -> system tools -> character map
+- videoLan -> (documentation, release notes, videoLan website)
+- git -> (git faqs, git release notes)
+- autohotkey -> website
+
+
+User path:
+
+C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+
+# Remove shortcuts:
+- accessibility -> narrator
+- accessibility -> magnifier
+- accessibility -> live captions
+- firefox web apps - youtube
+- windows powershell -> windows powershell(x86)
+
+--------------------------------------------------------------------
+
+-- DIRECTORIES/SCRIPTS --
+
+Create:
+- kigen
+- toshokan
+- sagyoba
+- daunrodo
+- kami
+- gazo
+- eizo
+- torakku
+- gram
+- Screenshots
+- jikkou.pyw
+- shuryo.pyw
+
+
+--------------------------------------------------------------------
+
+-- PROGRAMS --
+
+Install:
+- 7-zip
+- void image viewer
+- ahk
+- vscode
+- firefox
+- brave beta
+- vlc
+- utorrent
+- windows terminal
+- git
+- git credential manager
+- nodejs
+- python 3.13.1
+- python launcher
+- postgres
+- notepad
+- telegram
+- postman
+- table plus
+- tastytrade
+- IBKR desktop
+- calculator
+- clock
+- camera
+- english (united states) local experience pack
+
+
+Uninstall:
+- web media extensions
+- edge browser
+- visual studio
+- windows software development kit
+- windows sdk addon
+
+
+--------------------------------------------------------------------
+
+-- SYSTEM FEATURES/EXTENSIONS --
+
+path: settings -> system -> optional features
+
+Uninstall:
+- facial recognition (windows hello)
+- internet explorer mode
+- steps recorder
+- windows media player legacy
+- windows powershell ISE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
