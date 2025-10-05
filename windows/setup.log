@@ -31,9 +31,7 @@ User path:
 C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
 
 # Remove shortcuts:
-- accessibility -> narrator
-- accessibility -> magnifier
-- accessibility -> live captions
+- accessibility -> (narrator, magnifier, live captions)
 - firefox web apps - youtube
 - windows powershell -> windows powershell(x86)
 
