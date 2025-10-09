@@ -1,3 +1,14 @@
+EXTENSIONS:
+
+- uBlock origin
+- Simple translate
+- sponsorblock
+- unhook
+- hide thumbnails
+- dark reader
+- immersive translate
+
+
 ## about:config ##
 
 setting:
