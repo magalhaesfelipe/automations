@@ -5,11 +5,11 @@ import os
 brave_path = r"C:\Program Files\BraveSoftware\Brave-Browser-Beta\Application\brave.exe"
 vscode_path = r"C:\Program Files\Microsoft VS Code\Code.exe"
 
-url = "http://localhost:9000/agenda"
+url = "http://localhost:9000/cadastro"
 
 # Directories
-fe_dir = r"C:\Users\rgm-79N\Documents\2501\sagyoba\clinic\fe"
-be_dir = r"C:\Users\rgm-79N\Documents\2501\sagyoba\clinic\be"
+fe_dir = r"C:\Users\rgm-79N\Documents\2501\sagyoba\clinic\front"
+be_dir = r"C:\Users\rgm-79N\Documents\2501\sagyoba\clinic\back"
 
 # --- Open Brave ---
 # Check if Brave exists
