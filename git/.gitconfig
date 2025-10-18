@@ -1,0 +1,9 @@
+# C:\Users\<user_name>
+
+[core]
+	editor = \"C:\\Users\\<user_name>\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+	autocrlf = input
+	pager = cat # disable pager globally and use cat(short for “concatenate”) instead. So it won't limit git logs to 3 for example
+[user]
+	email = ffelipemagallhaes@gmail.com
+	name = felipe.magalhaes
