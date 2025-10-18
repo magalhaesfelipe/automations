@@ -11,14 +11,14 @@ front_path = os.path.join(BASE_DIR, "front")
 # back_path = os.path.join(BASE_DIR, "back")
 
 front_dirs = [
-    "front/web-root",
-    "front/web-home",
-    "front/web-configuracoes",
-    "front/web-cadastro",
-    "front/web-agenda",
-    "front/web-orcamento",
-    "front/web-triagem",
-    # "front/web-login",
+    "front/root",
+    "front/home",
+    "front/configuracoes",
+    "front/cadastro",
+    "front/agenda",
+    "front/orcamento",
+    "front/triagem",
+    # "front/login",
 ]
 
 # UPDATE BACK

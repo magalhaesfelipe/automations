@@ -8,8 +8,7 @@ vscode_path = r"C:\Program Files\Microsoft VS Code\Code.exe"
 url = "http://localhost:9000/cadastro"
 
 # Directories
-fe_dir = r"C:\Users\rgm-79N\Documents\2501\sagyoba\clinic\front"
-be_dir = r"C:\Users\rgm-79N\Documents\2501\sagyoba\clinic\back"
+clinic_dir = r"C:\Users\rgm-79N\Documents\2501\sagyoba\clinic"
 
 # --- Open Brave ---
 # Check if Brave exists
@@ -20,12 +19,10 @@ else:
     subprocess.Popen([brave_path, url])
     print(f"Brave browser launched and opened {url}!")
 
-# --- Open VS Code windows ---
+# --- Open VS Code window ---
 if os.path.exists(vscode_path):
-    subprocess.Popen([vscode_path, fe_dir])
-    print(f"VS Code opened in {fe_dir}")
+    subprocess.Popen([vscode_path, clinic_dir])
+    print(f"VS Code opened in {clinic_dir}")
 
-    subprocess.Popen([vscode_path, be_dir])
-    print(f"VS Code opened in {be_dir}")
 else:
     print("VS Code not found. Please check the installation path.")
