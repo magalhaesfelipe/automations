@@ -1,4 +1,4 @@
-2501 = kigen -< genesis
+2501 = kigen -< genesis[op. toshokan]
        toshokan -< library
        sagyoba -< workplace
        daunrodo -< download
