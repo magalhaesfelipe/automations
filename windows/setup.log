@@ -114,11 +114,11 @@ Uninstall:
 
 -- APPEARANCE --
 
-Theme colors
+# Theme colors
+- light pink: #D7A6C5
 
-light pink: #D7A6C5
-
-
+# Taskbar
+- Hide icon menu
 
 
 
