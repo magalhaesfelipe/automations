@@ -1,0 +1,12 @@
+## ZIP ##
+
+zip -r front.zip front -x "*/node_modules/*" "*/.git/*" "*/package-lock.json"
+
+front.zip -> new compressed file
+front -> directory to be compressed
+-x -> directories/files to not be included
+
+
+## 7zip ##
+set +H
+7z a -r front.zip front "-x!node_modules/*" "-x!.git/*" "-x!package-lock.json"
