@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0",
+  "tasks": [
+    {
+      "label": "start root-config",
+      "type": "shell",
+      "command": "npm start",
+      "options": { "cwd": "${workspaceFolder}/root-config" },
+      "problemMatcher": [],
+      "presentation": { "panel": "dedicated" }
+    }
+  ]
+}
