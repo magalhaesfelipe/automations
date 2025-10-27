@@ -2,12 +2,23 @@
   "version": "0.1.0",
   "tasks": [
     {
-      "label": "start root-config",
+      "label": "start app_name",
       "type": "shell",
       "command": "npm start",
       "options": { "cwd": "${workspaceFolder}/root-config" },
       "problemMatcher": [],
       "presentation": { "panel": "dedicated" }
+    },
+    {
+      "label": "start all",
+      "dependsOn": [
+        "start app_name",
+        "start app_name2"
+      ],
+      "dependsOrder": "parallel",
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
     }
   ]
 }
