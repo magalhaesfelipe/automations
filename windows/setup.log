@@ -5,6 +5,7 @@ Global path:
 C:\ProgramData\Microsoft\Windows\Start Menu\Programs
 
 # Create shortcuts:
+
 - kigen
 - toshokan
 - sagyoba
@@ -20,6 +21,7 @@ C:\ProgramData\Microsoft\Windows\Start Menu\Programs
 - start menu(C:\ProgramData\Microsoft\Windows\Start Menu\Programs)
 
 # Remove shortcuts:
+
 - Visual studio 2019
 - windows accessories -> system tools -> character map
 - videoLan -> (documentation, release notes, videoLan website)
@@ -27,6 +29,7 @@ C:\ProgramData\Microsoft\Windows\Start Menu\Programs
 - autohotkey -> website
 - postgreSQL17 -> documentation
 - node.js -> (documentation, website, install additional tools, command prompt)
+- windows accessories
 
 
 User path:
