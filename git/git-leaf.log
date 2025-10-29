@@ -31,6 +31,11 @@ git commit -m '<commit_message>'
 git push -u origin <new_branch_name> or git push -u origin head (head will push the local current branch name to the origin)
 
 
+git clean -fd ---> removes the new files(don't know if repositories as well)
+
+git restore . ----> remove changes made to a directory
+
+
 
 
 
