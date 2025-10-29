@@ -37,5 +37,13 @@ git restore . ----> remove changes made to a directory
 
 
 
+########
+git stash           # save uncommitted changes
+git pull            # update branch with remote changes
+git stash pop       # reapply your saved changes
+
+
+
+
 
 
