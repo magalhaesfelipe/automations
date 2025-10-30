@@ -20,6 +20,7 @@ C:\ProgramData\Microsoft\Windows\Start Menu\Programs
 - shuryo.pyw
 - start menu(C:\ProgramData\Microsoft\Windows\Start Menu\Programs)
 - C:(C:\)
+- File Explorer.exe (target: %windir%\explorer.exe C:\) (path: C:\Users\<user>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs)
 
 # Remove shortcuts:
 
