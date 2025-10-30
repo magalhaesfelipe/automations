@@ -1,8 +1,8 @@
-2501 = kigen -< genesis[op. toshokan]
-       toshokan -< library
-       sagyoba -< workplace
-       daunrodo -< download
-       kami -< document
-       gazo -< image
-       torakku -< audio track
-       eizo -< footage/video
+2501(C:) = kigen -< genesis[toshokan{}]
+       		 toshokan -< library
+       		 sagyoba -< workplace
+       		 daunrodo -< download
+       		 kami -< document
+       		 gazo -< image
+       		 torakku -< audio track
+       		 eizo -< footage/video

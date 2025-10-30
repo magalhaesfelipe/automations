@@ -114,7 +114,7 @@ Uninstall:
 - windows powershell ISE
 
 
------------------------------------------------------------------
+----------------------------------------------------
 
 -- APPEARANCE --
 
@@ -125,6 +125,18 @@ Uninstall:
 - Hide icon menu
 
 
+
+-- DELETE DIRECTORIES --
+
+C:\PerfLogs
+
+
+----------------------------------------------------
+
+-- C:\Users\rgm-79N --
+
+.bashrc
+.nanorc
 
 
 
