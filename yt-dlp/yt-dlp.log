@@ -1,0 +1,7 @@
+Support: yt, soundcloud
+
+# video (default highest video/audio quality):
+y <url> 
+
+# audio ("-x" === extract):
+y -x <url>
