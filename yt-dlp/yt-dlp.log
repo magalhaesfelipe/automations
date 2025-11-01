@@ -1,7 +1,11 @@
 Support: yt, soundcloud
 
-# video (default highest video/audio quality):
-y <url> 
+# video | default highest video/audio quality:
+y <URL> 
 
-# audio ("-x" === extract):
-y -x <url>
+# audio | "-f" === format, "bestaudio" picks the best quality and preserve the container's extension
+y -f bestaudio <URL>
+
+# audio | "-x" === extract, *doesn't keep the container extesion, returns the raw file
+y -x <URL>
+
